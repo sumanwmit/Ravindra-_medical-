@@ -148,7 +148,16 @@ export default function Footer({ setActiveTab, openModal }: FooterProps) {
       <div className="bg-slate-950 border-t border-slate-900 py-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="text-xs text-slate-500">
-            &copy; {currentYear} Ravindra Medical Hall. All rights reserved. | Sourced and updated in Pai Bigha, Bihar.
+            &copy; {currentYear} Ravindra Medical Hall. All rights reserved. | Developed by{' '}
+            <a 
+              href="https://main.webmakerit.com" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-slate-400 hover:text-emerald-400 font-semibold transition-colors"
+            >
+              WMIT
+            </a>{' '}
+            | Sourced and updated in Pai Bigha, Bihar.
           </div>
           <div className="flex flex-wrap gap-4 text-xs">
             <button 

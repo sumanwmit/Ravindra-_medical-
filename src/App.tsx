@@ -9,9 +9,13 @@ import GalleryView from './components/GalleryView';
 import ContactView from './components/ContactView';
 import WhatsAppOrderForm from './components/WhatsAppOrderForm';
 import SEO from './components/SEO';
+import { useTracker } from './hooks/useTracker';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<string>('home');
+  
+  // Track globally
+  useTracker(activeTab);
   const [isDarkMode, setIsDarkMode] = useState<boolean>(() => {
     // Check localStorage or system preference
     if (typeof window !== 'undefined') {
