@@ -1,0 +1,6 @@
+{
+  "name": "Ravindra Medical Hall - Trustworthy Pharmacy & Medical Store",
+  "description": "Your trusted pharmacy in Pai Bigha, Makhdumpur, Bihar for 100% genuine medicines, healthcare products, surgical supplies, and easy WhatsApp prescription ordering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
